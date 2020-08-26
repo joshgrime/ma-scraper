@@ -1,0 +1,15 @@
+{
+    "crawl": true,
+    "startUrl": "https://manchesterautomata.com/",
+    "readQueueFromFile": false,
+    "saveRate": 50,
+    "browserTimeout": 60,
+    "plugins": [
+        {
+            "name": "link-gather",
+            "options": {
+                "internalOnly": true
+            }
+        }
+    ]
+}

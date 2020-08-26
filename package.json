@@ -1,0 +1,15 @@
+{
+  "name": "ma-scraper",
+  "version": "1.0.0",
+  "description": "Manchester Automata Web Scraping Engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Joshua Grime @ Manchester Automata",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.1",
+    "puppeteer": "^5.2.1"
+  }
+}
