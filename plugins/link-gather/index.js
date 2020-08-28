@@ -26,7 +26,7 @@ function linkGather(options){
             pllink = pllink.filter(link=>{
                 let splitLink = link.split('.');
                 let fileExt = splitLink[splitLink.length-1];
-                return fileExt !== 'pdf' && fileExt !== 'jpg' && fileExt !== 'exe' && fileExt !== 'png';
+                return fileExt !== 'pdf' && fileExt !== 'jpg' && fileExt !== 'exe' && fileExt !== 'png' && fileExt !== 'svg';
             });
             pllink = uniq(pllink);
             resolve(pllink);

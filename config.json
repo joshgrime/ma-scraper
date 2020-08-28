@@ -1,15 +1,21 @@
 {
     "crawl": true,
-    "startUrl": "https://manchesterautomata.com/",
+    "maxLinkDepth":6,
+    "startUrl": "http://joshgri.me/amp/",
     "readQueueFromFile": false,
-    "saveRate": 50,
-    "browserTimeout": 60,
+    "saveRate": 2,
+    "pageTimeout": 60,
+    "headless": false,
+    "reportName":"report",
     "plugins": [
         {
             "name": "link-gather",
             "options": {
                 "internalOnly": true
             }
+        },
+        {
+            "name": "img-gather"
         }
     ]
 }
